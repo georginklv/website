@@ -1,19 +1,60 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view />
+    <img src="./assets/head-img.png" alt="" class="head-img" />
+    <NavBar />
+    <TitleSection />
+    <About />
+    <Experience />
+    <Footer />
+    <img src="./assets/footer.png" alt="" class="footer-img" />
   </div>
 </template>
 
+<script>
+import NavBar from "./components/NavBar.vue";
+import TitleSection from "./components/TitleSection.vue";
+import About from "./components/About.vue";
+import Experience from "./components/Experience.vue";
+import Footer from "./components/Footer.vue";
+
+export default {
+  name: "App",
+  components: {
+    NavBar,
+    TitleSection,
+    About,
+    Experience,
+    Footer
+  }
+};
+</script>
+
 <style lang="stylus">
+*
+  margin 0
+  padding 0
+  box-sizing border-box
+body
+  background-color #000
+  width: 100vw;
+  overflow-x: hidden;
 #app
-  font-family Avenir, Helvetica, Arial, sans-serif
-  -webkit-font-smoothing antialiased
-  -moz-osx-font-smoothing grayscale
+  font-family Roboto, sans-serif
   text-align center
-  color #2c3e50
-  margin-top 60px
+  color #fff
+  max-width 1920px
+  margin 0 auto
+  position relative
+.wrapper
+  width 100%
+  max-width 1400px
+  margin 0 auto
+  position relative
+  z-index 10
+.head-img
+  position absolute
+.footer-img
+  position: absolute;
+  left: 0;
+  bottom: 0;
 </style>
