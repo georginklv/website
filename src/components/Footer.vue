@@ -1,0 +1,81 @@
+<template>
+  <div class="footer">
+    <div class="wrapper">
+      <div class="block-footer">
+        <div class="inner-container">
+          <h2 class="title">Contact me</h2>
+          <div class="footer-row">
+            <img
+              src="../assets/phone.png"
+              alt=""
+              class="footer-small-img phone"
+            />
+            <p>+359 878 67 48 25</p>
+          </div>
+          <div class="footer-row">
+            <img
+              src="../assets/mail.png"
+              alt=""
+              class="footer-small-img mail"
+            />
+            <a href="mailto: georginklv@abv.bg">georginklv@abv.bg</a>
+          </div>
+          <div class="footer-row">
+            <img
+              src="../assets/linkedin.png"
+              alt=""
+              class="footer-small-img linkedin"
+            />
+            <a href="https://www.linkedin.com/in/georgi-nikolov-b43816139/"
+              >Georgi Nikolov</a
+            >
+          </div>
+          <div class="footer-row">
+            <img
+              src="../assets/github.png"
+              alt=""
+              class="footer-small-img github"
+            />
+            <a href="https://github.com/georginklv">georginklv</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+  name: "Footer",
+  props: {}
+};
+</script>
+
+<style scoped lang="stylus">
+.footer
+    position relative
+    padding 140px 0
+.wrapper
+    position relative
+.footer-img
+    position absolute
+    left 0
+    bottom 0
+.block-footer
+    background #ffffff
+    border-radius 15px
+    z-index 1
+    margin: 0 auto;
+    max-width: 1200px;
+    color #000
+    position: relative;
+    padding 100px
+.footer-row
+    display flex
+    flex-direction row
+    margin-bottom 20px
+    align-items: center;
+.footer-small-img
+    max-width 45px
+    margin-right 15px
+</style>
