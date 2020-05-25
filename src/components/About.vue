@@ -1,7 +1,11 @@
 <template>
   <div class="wrapper">
     <div class="about">
-      <div class="left-column"></div>
+      <div class="left-column">
+        <div class="img-wrapper">
+          <img src="../assets/IMG_1585.png" alt="image" class="self-portrait" />
+        </div>
+      </div>
       <div class="right-column">
         <h2 class="title title-about">About</h2>
         <div class="line"></div>
@@ -39,6 +43,11 @@ h2
     background: linear-gradient(to right, #27a6e3 0%,#6200ab 100%);
 .left-column
     width 50%
+.img-wrapper
+  border: 10px solid #651f9e;
+  width 340px
+.self-portrait
+  width 340px
 .right-column
     width 50%
 .who
