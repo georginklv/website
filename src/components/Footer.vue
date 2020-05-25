@@ -4,6 +4,7 @@
       <div class="block-footer">
         <div class="inner-container">
           <h2 class="title">Contact me</h2>
+          <div class="line"></div>
           <div class="footer-row">
             <img
               src="../assets/phone.png"
@@ -18,15 +19,20 @@
               alt=""
               class="footer-small-img mail"
             />
-            <a href="mailto: georginklv@abv.bg">georginklv@abv.bg</a>
+            <a href="mailto: georginklv@abv.bg" target="_blank"
+              >georginklv@abv.bg</a
+            >
           </div>
           <div class="footer-row">
             <img
               src="../assets/linkedin.png"
               alt=""
               class="footer-small-img linkedin"
+              target="_blank"
             />
-            <a href="https://www.linkedin.com/in/georgi-nikolov-b43816139/"
+            <a
+              href="https://www.linkedin.com/in/georgi-nikolov-b43816139/"
+              target="_blank"
               >Georgi Nikolov</a
             >
           </div>
@@ -36,7 +42,9 @@
               alt=""
               class="footer-small-img github"
             />
-            <a href="https://github.com/georginklv">georginklv</a>
+            <a href="https://github.com/georginklv" target="_blank"
+              >georginklv</a
+            >
           </div>
         </div>
       </div>
@@ -57,6 +65,11 @@ export default {
     padding 140px 0
 .wrapper
     position relative
+.line
+    margin 10px auto 40px
+    width 200px
+    height 3px
+    background: linear-gradient(to right, #27a6e3 0%,#6200ab 100%);
 .footer-img
     position absolute
     left 0
@@ -66,16 +79,23 @@ export default {
     border-radius 15px
     z-index 1
     margin: 0 auto;
-    max-width: 1200px;
+    max-width: 900px;
     color #000
     position: relative;
-    padding 100px
+    padding: 80px 140px
 .footer-row
     display flex
     flex-direction row
     margin-bottom 20px
     align-items: center;
 .footer-small-img
-    max-width 45px
-    margin-right 15px
+    max-width 35px
+    margin-right 150px
+.title
+    font-size 40px
+p,a
+    font-size: 30px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #000;
 </style>

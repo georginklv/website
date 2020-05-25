@@ -9,14 +9,12 @@
     <img src="./assets/footer.png" alt="" class="footer-img" />
   </div>
 </template>
-
 <script>
 import NavBar from "./components/NavBar.vue";
 import TitleSection from "./components/TitleSection.vue";
 import About from "./components/About.vue";
 import Experience from "./components/Experience.vue";
 import Footer from "./components/Footer.vue";
-
 export default {
   name: "App",
   components: {

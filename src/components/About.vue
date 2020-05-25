@@ -43,11 +43,27 @@ h2
     background: linear-gradient(to right, #27a6e3 0%,#6200ab 100%);
 .left-column
     width 50%
+    justify-content: center;
+    display: flex;
 .img-wrapper
-  border: 10px solid #651f9e;
+  border: 10px solid transparent ;
   width 340px
+  background-clip: padding-box
+  position relative
+  background-color #000
+  &:before
+    content: ''
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    z-index: -1;
+    margin: -4px;
+    border-radius: 6px;
+    background: linear-gradient(to right, #27a6e3 0%,#6200ab 100%);
+
 .self-portrait
   width 340px
+  bottom: -3px;
+  position: relative;
 .right-column
     width 50%
 .who
