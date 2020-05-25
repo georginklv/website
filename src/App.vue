@@ -5,6 +5,7 @@
     <TitleSection />
     <About />
     <Experience />
+    <Projects />
     <Footer />
     <img src="./assets/footer.png" alt="" class="footer-img" />
   </div>
@@ -14,6 +15,7 @@ import NavBar from "./components/NavBar.vue";
 import TitleSection from "./components/TitleSection.vue";
 import About from "./components/About.vue";
 import Experience from "./components/Experience.vue";
+import Projects from "./components/Projects.vue";
 import Footer from "./components/Footer.vue";
 export default {
   name: "App",
@@ -22,6 +24,7 @@ export default {
     TitleSection,
     About,
     Experience,
+    Projects,
     Footer
   }
 };
@@ -55,4 +58,11 @@ body
   position: absolute;
   left: 0;
   bottom: 0;
+body::-webkit-scrollbar
+  width: 1em;
+body::-webkit-scrollbar-track
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+body::-webkit-scrollbar-thumb
+  background: linear-gradient(to bottom, #27a6e3 0%,#6200ab 100%);
+  outline: 1px solid slategrey;
 </style>
