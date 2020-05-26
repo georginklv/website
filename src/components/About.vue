@@ -1,5 +1,5 @@
 <template>
-  <div class="wrapper">
+  <div class="wrapper" id="about">
     <div class="about">
       <div class="left-column">
         <div class="img-wrapper">
@@ -30,21 +30,21 @@ export default {
 
 <style scoped lang="stylus">
 .about
-    padding 140px 0
-    display flex
-    flex-direction row
-    text-align left
+  padding 140px 0
+  display flex
+  flex-direction row
+  text-align left
 h2
-    font-size 50px
+  font-size 50px
 .line
-    margin 20px 0
-    width 200px
-    height 3px
-    background: linear-gradient(to right, #27a6e3 0%,#6200ab 100%);
+  margin 20px 0
+  width 200px
+  height 3px
+  background: linear-gradient(to right, #27a6e3 0%,#6200ab 100%);
 .left-column
-    width 50%
-    justify-content: center;
-    display: flex;
+  width 50%
+  justify-content: center;
+  display: flex;
 .img-wrapper
   border: 10px solid transparent ;
   width 340px
@@ -65,13 +65,13 @@ h2
   bottom: -3px;
   position: relative;
 .right-column
-    width 50%
+  width 50%
 .who
-    font-size 40px
-    margin-bottom 40px
+  font-size 40px
+  margin-bottom 40px
 .paragraph
-    font-size: 20px;
-    font-weight: 400;
-    color: #ffffffb3;
-    line-height: 30px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #ffffffb3;
+  line-height: 30px;
 </style>

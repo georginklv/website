@@ -43,10 +43,21 @@ p
   border-radius: 7px;
   margin-top 20px
 .btn-about
+  cursor pointer
   margin-right: 60px;
   border 1px solid #fff
+  transition linear 0.2s
+  &:hover
+    border 1px solid #61048d
+    color #61048d
+    background-color #000
 .btn-contact
+  cursor pointer
   background-color: transparent;
   border 1px solid #fff
   color #fff
+  transition linear 0.2s
+  &:hover
+    border 1px solid #61048d
+    color #61048d
 </style>

@@ -1,6 +1,6 @@
 <template>
   <div class="footer">
-    <div class="wrapper">
+    <div class="wrapper" id="contact">
       <div class="block-footer">
         <div class="inner-container">
           <h2 class="title">Contact me</h2>

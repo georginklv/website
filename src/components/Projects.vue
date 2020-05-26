@@ -1,15 +1,20 @@
 <template>
-  <div class="wrapper">
+  <div class="wrapper" id="projects">
     <div class="projects">
       <hooper :itemsToShow="3" :centerMode="true">
         <slide :index="0">
           <div class="block-wrapper">
-            <div class="img"></div>
-            <!--img src="" alt="" class="block-"-->
+            <img src="../assets/website.jpg" alt="" class="block-" />
             <div class="block-info-content">
-              <p class="title-project">Project</p>
-              <p class="info-about-project">allalalvkajvlkajsklvjaklsv</p>
-              <a href="" class="gitHub-link">
+              <p class="title-project">Website</p>
+              <p class="info-about-project">
+                This is the site you looking now. I'm using Vue.js, Stylus.
+              </p>
+              <a
+                href="https://github.com/georginklv/website"
+                target="_blank"
+                class="gitHub-link"
+              >
                 <img
                   src="../assets/github-black.webp"
                   alt=""
@@ -23,12 +28,15 @@
 
         <slide :index="1">
           <div class="block-wrapper">
-            <div class="img"></div>
-            <!--img src="" alt="" class="block-"-->
+            <img src="../assets/calculator.png" alt="" class="block-" />
             <div class="block-info-content">
-              <p class="title-project">Project</p>
-              <p class="info-about-project">allalalvkajvlkajsklvjaklsv</p>
-              <a href="" class="gitHub-link">
+              <p class="title-project">Vue Calculator</p>
+              <p class="info-about-project">Calcutor made with Vue.js</p>
+              <a
+                href="https://github.com/georginklv/vue-calculator"
+                target="_blank"
+                class="gitHub-link"
+              >
                 <img
                   src="../assets/github-black.webp"
                   alt=""
@@ -42,12 +50,40 @@
 
         <slide :index="2">
           <div class="block-wrapper">
-            <div class="img"></div>
-            <!--img src="" alt="" class="block-"-->
+            <img src="../assets/flappy.jpg" alt="" class="block-" />
             <div class="block-info-content">
-              <p class="title-project">Project</p>
-              <p class="info-about-project">allalalvkajvlkajsklvjaklsv</p>
-              <a href="" class="gitHub-link">
+              <p class="title-project">lqtqshtoPile</p>
+              <p class="info-about-project">
+                This is remake of the famous game Flappy Bird. I'm using only
+                JavaScript, HTML5, CSS3. Still in progres ...
+              </p>
+              <a
+                href="https://github.com/georginklv/lqtqshtoPile"
+                target="_blank"
+                class="gitHub-link"
+              >
+                <img
+                  src="../assets/github-black.webp"
+                  alt=""
+                  class="gitHub-logo"
+                />
+                <p class="github">GitHub</p>
+              </a>
+            </div>
+          </div>
+        </slide>
+
+        <slide :index="3">
+          <div class="block-wrapper">
+            <img src="../assets/weather.jpg" alt="" class="block-" />
+            <div class="block-info-content">
+              <p class="title-project">Vue Weather</p>
+              <p class="info-about-project">Weather app made with Vue.js</p>
+              <a
+                href="https://github.com/georginklv/vue-weather"
+                target="_blank"
+                class="gitHub-link"
+              >
                 <img
                   src="../assets/github-black.webp"
                   alt=""
@@ -73,8 +109,7 @@ export default {
   components: {
     Hooper,
     Slide
-  },
-  data() {}
+  }
 };
 </script>
 
@@ -87,10 +122,12 @@ export default {
     display flex
     flex-direction column
     max-width 350px
-.img
-    height 210px
+.block-wrapper > img
+    height auto
     background-color blue
     border-radius 6px 6px 0 0
+    background-size: cover;
+    max-width: 360px;
 .block-info-content
     padding 40px
     display flex
@@ -129,4 +166,5 @@ export default {
     font-weight 500
 .hooper
     height auto
+    outline-width 0
 </style>

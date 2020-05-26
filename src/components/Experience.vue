@@ -1,5 +1,5 @@
 <template>
-  <div class="wrapper">
+  <div class="wrapper" id="experience">
     <div class="experience">
       <div class="left-colum-experience">
         <p class="small-title">Qualification</p>
@@ -211,14 +211,14 @@ export default {
   font-size: 40px;
   line-height: 80px;
 .position-small-title
-  font-weight: 200;
+  font-weight: 300;
   font-size: 15px;
 .heading-position
   font-size: 25px;
   line-height: 40px;
 .date
   color: #27a5e2;
-  font-weight: 200;
+  font-weight: 300;
   font-size: 15px;
   margin-bottom 10px
 .paragraph
