@@ -229,4 +229,32 @@ export default {
   left: unset;
 .swiper-button-next
   top: 10%;
+@media only screen and (max-width: 1024px)
+  .experience
+    flex-direction column
+  .wrapper
+    max-width: 770px
+  .right-colum-experience
+    width 100%
+  .left-colum-experience
+    width 100%
+    margin-bottom 40px
+  .swiper-button-prev
+    top 4%
+    right: 13%;
+  .swiper-button-next
+    top 4%
+    right: 0px;
+@media only screen and (max-width: 600px)
+   .wrapper
+     max-width: 400px;
+@media only screen and (max-width: 450px)
+  .wrapper
+     max-width: 270px
+  .swiper-slide
+      margin-top: 80px!important
+  .positions
+      margin-left: 10px;
+      &:before
+        left: -10px;
 </style>

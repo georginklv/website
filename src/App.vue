@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <img src="./assets/head-img.png" alt="" class="head-img" />
+
     <NavBar />
     <TitleSection />
     <About />
@@ -46,6 +47,8 @@ body
   max-width 1920px
   margin 0 auto
   position relative
+  overflow-x: hidden;
+
 .wrapper
   width 100%
   max-width 1400px
@@ -54,6 +57,7 @@ body
   z-index 10
 .head-img
   position absolute
+  right 0
 .footer-img
   position: absolute;
   left: 0;
@@ -65,4 +69,17 @@ body::-webkit-scrollbar-track
 body::-webkit-scrollbar-thumb
   background: linear-gradient(to bottom, #27a6e3 0%,#6200ab 100%);
   outline: 1px solid slategrey;
+.nav-wrapper
+  display flex
+  flex-direction row
+
+#navigation-icon
+  padding 10px 10px 20px
+  margin-right 10px
+  cursor pointer
+i
+  font-size 2rem
+  width 100px
+  height 100px
+  background #fff
 </style>

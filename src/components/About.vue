@@ -74,4 +74,20 @@ h2
   font-weight: 400;
   color: #ffffffb3;
   line-height: 30px;
+@media only screen and (max-width: 768px)
+  .wrapper
+    max-width: 570px;
+  .about
+    flex-direction column
+    align-items: center;
+  .left-column
+    margin-bottom: 40px;
+  .right-column
+    width: 100%;
+@media only screen and (max-width: 600px)
+   .wrapper
+     max-width: 340px;
+@media only screen and (max-width: 450px)
+   .wrapper
+     max-width: 270px;
 </style>
