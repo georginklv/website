@@ -79,6 +79,8 @@ export default {
       font-size: 55px;
     p
       font-size: 25px;
+    .btn-about
+      background-color #fff
 @media only screen and (max-width: 768px)
   .left-column
       width: 100%;

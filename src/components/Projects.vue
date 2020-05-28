@@ -167,4 +167,13 @@ export default {
 .hooper
     height auto
     outline-width 0
+@media only screen and (max-width: 1024px)
+  .block-wrapper
+    margin-right: 30px;
+    max-width: 330px;
+  .hooper-slide
+    width 330px!important
+@media only screen and (max-width: 600px)
+  .block-wrapper
+    max-width: 330px;
 </style>

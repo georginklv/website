@@ -98,4 +98,11 @@ p,a
     font-weight: 500;
     text-decoration: none;
     color: #000;
+@media only screen and (max-width: 1024px)
+  .block-footer
+    padding: 20px 30px;
+  .footer-small-img
+    margin-right 25px
+  p
+    font-size 20px
 </style>
