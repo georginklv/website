@@ -5,8 +5,8 @@
         <p>Hello, my name is</p>
         <p class="name">Georgi Nikolov</p>
         <p>I am a Front end Developer</p>
-        <button href="#about" class="btn-head btn-about">About</button>
-        <button href="#contact" class="btn-head btn-contact">Contact</button>
+        <a href="#about" class="btn-head btn-about">About</a>
+        <a href="#contact" class="btn-head btn-contact">Contact</a>
       </div>
     </div>
   </div>
@@ -41,15 +41,19 @@ export default {
     font-weight 600
     border-radius: 7px;
     margin-top 20px
+    color #000
+    text-decoration none
   .btn-about
     cursor pointer
     margin-right: 60px;
     border 1px solid #fff
     transition linear 0.2s
+    background-color #fff
     &:hover
       border 1px solid #61048d
       color #61048d
       background-color #000
+      text-decoration none
   .btn-contact
     cursor pointer
     background-color: transparent;
@@ -59,6 +63,7 @@ export default {
     &:hover
       border 1px solid #61048d
       color #61048d
+      text-decoration none
 
 
 @media only screen and (max-width: 1024px)
