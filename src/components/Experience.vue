@@ -204,7 +204,7 @@ export default {
     width: 15px;
     position: absolute;
     top: 0;
-    left: -11px;
+    left: -10px;
     border: 1px solid transparent;
     border-radius: 30px;
     background: #f167ad;

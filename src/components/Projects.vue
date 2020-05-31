@@ -164,6 +164,7 @@ export default {
     color #000
     font-size 25px
     font-weight 500
+    margin 0
 .hooper
     height auto
     outline-width 0
