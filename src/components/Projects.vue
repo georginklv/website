@@ -150,9 +150,6 @@ export default {
     border-radius: 10px;
     border-image-source: linear-gradient(to right, #27a6e3 0%,#6200ab 100%)
     border-image-slice: 4;
-    border-right: 0px;
-    border-top: 0px;
-    border-bottom: 0px;
 .gitHub-link
     display flex
     flex-direction row

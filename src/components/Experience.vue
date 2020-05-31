@@ -195,6 +195,9 @@ export default {
   padding-left: 40px;
   margin-left: 40px;
   position: relative;
+  border-right: 0px;
+  border-top: 0px;
+  border-bottom: 0px;
   &:before
     content: '';
     height: 15px;
