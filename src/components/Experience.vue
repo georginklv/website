@@ -197,7 +197,6 @@ export default {
   position: relative;
   border-right: 0px;
   border-top: 0px;
-  border-bottom: 0px;
   &:before
     content: '';
     height: 15px;

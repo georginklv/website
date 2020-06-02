@@ -115,7 +115,7 @@ export default {
 
 <style scoped lang="stylus">
 .projects
-    padding 140px 0
+    padding 140px 0 0
 .swiper-wrapper
     margin-bottom: 60px!important;
 .block-wrapper

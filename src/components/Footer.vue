@@ -103,6 +103,7 @@ p,a
     padding: 20px 30px;
   .footer-small-img
     margin-right 25px
+  a,
   p
     font-size 20px
 </style>
