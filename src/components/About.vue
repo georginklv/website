@@ -84,6 +84,8 @@ h2
     margin-bottom: 40px;
   .right-column
     width: 100%;
+  .self-portrait
+    bottom 0
 @media only screen and (max-width: 600px)
    .wrapper
      max-width: 340px;
