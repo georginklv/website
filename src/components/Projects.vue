@@ -117,9 +117,14 @@ export default {
         centerMode: true,
         infiniteScroll: false,
         wheelControl: false,
+        trimWhiteSpace: true,
         breakpoints: {
-          400: {
-            centerMode: true,
+          300: {
+            centerMode: false,
+            itemsToShow: 1
+          },
+          500: {
+            centerMode: false,
             itemsToShow: 1
           },
           800: {
@@ -201,4 +206,6 @@ export default {
 @media only screen and (max-width: 600px)
   .block-wrapper
     max-width: 330px;
+  .swiper-button-next
+    right: 0;
 </style>
