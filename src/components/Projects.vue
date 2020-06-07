@@ -1,7 +1,7 @@
 <template>
   <div class="wrapper" id="projects">
     <div class="projects">
-      <hooper :itemsToShow="3" :centerMode="true">
+      <hooper :settings="hooperSettings">
         <slide :index="0">
           <div class="block-wrapper">
             <img src="../assets/website.jpg" alt="" class="block-" />
@@ -109,6 +109,30 @@ export default {
   components: {
     Hooper,
     Slide
+  },
+  data() {
+    return {
+      hooperSettings: {
+        itemsToShow: 3,
+        centerMode: true,
+        infiniteScroll: false,
+        wheelControl: false,
+        breakpoints: {
+          400: {
+            centerMode: true,
+            itemsToShow: 1
+          },
+          800: {
+            centerMode: false,
+            itemsToShow: 2
+          },
+          1000: {
+            itemsToShow: 3,
+            pagination: "fraction"
+          }
+        }
+      }
+    };
   }
 };
 </script>
