@@ -52,7 +52,7 @@
           <div class="block-wrapper">
             <img src="../assets/flappy.jpg" alt="" class="block-" />
             <div class="block-info-content">
-              <p class="title-project">lqtqshtoPile</p>
+              <p class="title-project">letqshtoPile</p>
               <p class="info-about-project">
                 This is remake of the famous game Flappy Bird. I'm using only
                 JavaScript, HTML5, CSS3. Still in progres ...

@@ -20,7 +20,7 @@
               class="footer-small-img mail"
             />
             <a href="mailto: georginklv@abv.bg" target="_blank"
-              >georginklv@abv.bg</a
+              >georginklv94@gmail.bg</a
             >
           </div>
           <div class="footer-row">

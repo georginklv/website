@@ -8,8 +8,8 @@
           <swiper-slide>
             <div class="positions">
               <p class="position-small-title">Masters</p>
-              <h2 class="heading-position">Economical University</h2>
-              <p class="date">09.2017 - Present</p>
+              <h2 class="heading-position">Economic University</h2>
+              <p class="date">01.09.2017 - Present</p>
               <p class="paragraph">
                 Master in "Business information systems"<br />
                 - Creating Web Apps with HTML5, CSS3, JavaScript, jQuery<br />
@@ -19,11 +19,11 @@
 
             <div class="positions">
               <p class="position-small-title">Bachelor</p>
-              <h2 class="heading-position">Economical University</h2>
-              <p class="date">09.2017 - 05.2017</p>
+              <h2 class="heading-position">EconomicUniversity</h2>
+              <p class="date">01.09.2013 - 05.2017</p>
               <p class="paragraph">
                 Bachelor in "Business information systems"<br />
-                - Develop Economical skills also skill at accounting, marketing
+                - Develop Economic skills also skill at accounting, marketing
                 and law <br />- Develop programming skills at C#, Java and
                 JavaScript<br />
                 - Web Design<br />
@@ -65,7 +65,7 @@
             <div class="positions">
               <p class="position-small-title">Dopamine</p>
               <h2 class="heading-position">Front End Developer</h2>
-              <p class="date">9.01.19 - Present</p>
+              <p class="date">09.01.19 - Present</p>
               <p class="paragraph">
                 Developing software applications<br />
                 - Working on a team projects<br />
@@ -80,7 +80,7 @@
               <h2 class="heading-position">
                 Web Developer and Graphic designer
               </h2>
-              <p class="date">18.04.18 - 8.1.19</p>
+              <p class="date">18.04.18 - 08.01.19</p>
               <p class="paragraph">
                 - Daily maintenance three sites : www.betsat.com ,
                 www.superbetin.com , www.betpot.com and their affiliates.<br />
@@ -97,7 +97,7 @@
             <div class="positions">
               <p class="position-small-title">Playground</p>
               <h2 class="heading-position">Customer service</h2>
-              <p class="date">1.04.17 - 4.2.18</p>
+              <p class="date">01.04.17 - 04.02.18</p>
               <p class="paragraph">
                 - Maintenance of hardware - Customer suport
               </p>
@@ -105,9 +105,9 @@
             <div class="positions">
               <p class="position-small-title">TaxBack</p>
               <h2 class="heading-position">
-                Expert maketing
+                Expert marketing
               </h2>
-              <p class="date">18.04.18 - 8.1.19</p>
+              <p class="date">18.04.18 - 8.01.19</p>
               <p class="paragraph">
                 - Made reports from which i made mass emails. The emails were
                 made as pages with HTML5 and CSS3. Also take care of part of the
@@ -122,7 +122,7 @@
                 Hapmton Jitney (New York City, USA)
               </p>
               <h2 class="heading-position">Bus attendant</h2>
-              <p class="date">1.6.16 - 1.10.16</p>
+              <p class="date">01.6.16 - 01.10.16</p>
               <p class="paragraph">
                 - Face to face customer service
               </p>
@@ -132,7 +132,7 @@
                 McKinley Chalet Resort (Alaska , USA)
               </p>
               <h2 class="heading-position">Busser</h2>
-              <p class="date">1.6.15 - 1.10.15</p>
+              <p class="date">01.06.15 - 01.10.15</p>
               <p class="paragraph">
                 - Customer service
               </p>
@@ -246,7 +246,7 @@ export default {
     right: 13%;
   .swiper-button-next
     top 4%
-    right: 0px;
+    right: 20px;
 @media only screen and (max-width: 600px)
    .wrapper
      max-width: 400px;
