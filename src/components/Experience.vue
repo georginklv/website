@@ -10,45 +10,47 @@
               <p class="position-small-title">Masters</p>
               <h2 class="heading-position">Economic University</h2>
               <p class="date">01.09.2017 - Present</p>
-              <p class="paragraph">
-                Master in "Business information systems"<br />
-                - Creating Web Apps with HTML5, CSS3, JavaScript, jQuery<br />
-                - Graphic Design with Adobe product
-              </p>
+              <ul class="paragraph">
+                <p>Master in "Business information systems"</p>
+                <li>Creating Web Apps with HTML5, CSS3, JavaScript, jQuery</li>
+                <li>Graphic Design with Adobe product</li>
+              </ul>
             </div>
 
             <div class="positions">
               <p class="position-small-title">Bachelor</p>
               <h2 class="heading-position">EconomicUniversity</h2>
               <p class="date">01.09.2013 - 05.2017</p>
-              <p class="paragraph">
-                Bachelor in "Business information systems"<br />
-                - Develop Economic skills also skill at accounting, marketing
-                and law <br />- Develop programming skills at C#, Java and
-                JavaScript<br />
-                - Web Design<br />
-                - Graphic Design
-              </p>
+              <ul class="paragraph">
+                <p>Bachelor in "Business information systems</p>
+                <li>
+                  Develop Economic skills also skill at accounting, marketing
+                  and law
+                </li>
+                <li>Develop programming skills at C#, Java andJavaScript</li>
+                <li>Web Design</li>
+                <li>Graphic Design</li>
+              </ul>
             </div>
           </swiper-slide>
 
           <swiper-slide>
             <div class="positions">
               <h2 class="heading-position">Udemy</h2>
-              <p class="paragraph">
-                - Building Responsive Websites with HTML5 and CSS3<br />
-                - Advanced CSS and Sass<br />
-                - JavaScript
-              </p>
+              <ul class="paragraph">
+                <li>Building Responsive Websites with HTML5 and CSS3</li>
+                <li>Advanced CSS and Sass</li>
+                <li>JavaScript</li>
+              </ul>
             </div>
 
             <div class="positions">
               <h2 class="heading-position">Device Expert Academy</h2>
-              <p class="paragraph">
-                - JavaScript and jQuery<br />
-                - Graphic Design <br />
-                - Web Design
-              </p>
+              <ul class="paragraph">
+                <li>JavaScript and jQuery</li>
+                <li>Graphic Design</li>
+                <li>Web Design</li>
+              </ul>
             </div>
           </swiper-slide>
 
@@ -66,14 +68,18 @@
               <p class="position-small-title">Dopamine</p>
               <h2 class="heading-position">Front End Developer</h2>
               <p class="date">09.01.19 - Present</p>
-              <p class="paragraph">
-                Developing software applications<br />
-                - Working on a team projects<br />
-                - Making configurations for products via JavaScripts, working
-                with frameworks (Vue)<br />
-                - Creating layouts for jackpots via HTML5 and CSS3 (Stylus,
-                sass)
-              </p>
+              <ul class="paragraph">
+                <li>Developing software applications</li>
+                <li>Working on a team projects</li>
+                <li>
+                  Making configurations for products via JavaScripts, working
+                  with frameworks (Vue)
+                </li>
+                <li>
+                  Creating layouts for jackpots via HTML5 and CSS3 (Stylus,
+                  sass)
+                </li>
+              </ul>
             </div>
             <div class="positions">
               <p class="position-small-title">Square Consultancy</p>
@@ -81,15 +87,21 @@
                 Web Developer and Graphic designer
               </h2>
               <p class="date">18.04.18 - 08.01.19</p>
-              <p class="paragraph">
-                - Daily maintenance three sites : www.betsat.com ,
-                www.superbetin.com , www.betpot.com and their affiliates.<br />
-                - Design and develop landing pages, promotion pages and also
-                optimize them. Daily work with CMS systems.<br />
-                - Design banners from promotions, sport events, GIFs and other
-                graphic objects.<br />
-                - Taking care of UX, UI of the site and helping for SEO
-              </p>
+              <ul class="paragraph">
+                <li>
+                  Daily maintenance three sites : www.betsat.com ,
+                  www.superbetin.com , www.betpot.com and their affiliates.
+                </li>
+                <li>
+                  Designing and develop landing pages, promotion pages and also
+                  optimize them. Daily work with CMS systems.
+                </li>
+                <li>
+                  Designing banners from promotions, sport events, GIFs and
+                  other graphic objects.
+                </li>
+                <li>Taking care of UX, UI of the site and helping for SEO</li>
+              </ul>
             </div>
           </swiper-slide>
 
@@ -98,21 +110,27 @@
               <p class="position-small-title">Playground</p>
               <h2 class="heading-position">Customer service</h2>
               <p class="date">01.04.17 - 04.02.18</p>
-              <p class="paragraph">
-                - Maintenance of hardware - Customer suport
-              </p>
+              <ul class="paragraph">
+                <li>Maintenance of hardware - Customer suport</li>
+              </ul>
             </div>
             <div class="positions">
               <p class="position-small-title">TaxBack</p>
               <h2 class="heading-position">
-                Expert marketing
+                Marketing expert
               </h2>
-              <p class="date">18.04.18 - 8.01.19</p>
-              <p class="paragraph">
-                - Made reports from which i made mass emails. The emails were
-                made as pages with HTML5 and CSS3. Also take care of part of the
-                SEO, data analysis and date update.
-              </p>
+              <p class="date">18.04.18 - 08.01.19</p>
+              <ul class="paragraph">
+                <li>
+                  Made reports from which i made mass emails.
+                </li>
+                <li>
+                  Emails were made as pages with HTML5 and CSS3.
+                </li>
+                <li>
+                  Take care of part of the SEO, data analysis and date update.
+                </li>
+              </ul>
             </div>
           </swiper-slide>
 
@@ -123,19 +141,19 @@
               </p>
               <h2 class="heading-position">Bus attendant</h2>
               <p class="date">01.6.16 - 01.10.16</p>
-              <p class="paragraph">
-                - Face to face customer service
-              </p>
+              <ul class="paragraph">
+                <li>Face to face customer service</li>
+              </ul>
             </div>
             <div class="positions">
-              <p class="position-small-title">
-                McKinley Chalet Resort (Alaska , USA)
-              </p>
+              <ul class="position-small-title">
+                <li>McKinley Chalet Resort (Alaska , USA)</li>
+              </ul>
               <h2 class="heading-position">Busser</h2>
               <p class="date">01.06.15 - 01.10.15</p>
-              <p class="paragraph">
-                - Customer service
-              </p>
+              <ul class="paragraph">
+                <li>Customer service</li>
+              </ul>
             </div>
           </swiper-slide>
 

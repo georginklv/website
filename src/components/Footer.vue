@@ -19,8 +19,8 @@
               alt=""
               class="footer-small-img mail"
             />
-            <a href="mailto: georginklv@abv.bg" target="_blank"
-              >georginklv94@gmail.bg</a
+            <a href="mailto: georginklv94@gmail.com" target="_blank"
+              >georginklv94@gmail.com</a
             >
           </div>
           <div class="footer-row">
