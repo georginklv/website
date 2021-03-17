@@ -8,19 +8,16 @@
             <div class="block-info-content">
               <p class="title-project">We Do Web</p>
               <p class="info-about-project">
-                This is the site you looking now. I'm using Vue.js, Stylus.
+                Site which i created for company where i am co-founder. The tech
+                stack is Vue2, Sass, Vuetify.
               </p>
+
               <a
-                href="https://github.com/georginklv/wedoweb"
+                href="https://www.wedoweb.info"
                 target="_blank"
                 class="gitHub-link"
               >
-                <img
-                  src="../assets/github-black.webp"
-                  alt=""
-                  class="gitHub-logo"
-                />
-                <p class="github">GitHub</p>
+                <p class="github">To the site</p>
               </a>
             </div>
           </div>
