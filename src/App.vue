@@ -48,7 +48,6 @@ body
   margin 0 auto
   position relative
   overflow-x: hidden;
-
 .wrapper
   width 100%
   max-width 1400px
@@ -72,7 +71,6 @@ body::-webkit-scrollbar-thumb
 .nav-wrapper
   display flex
   flex-direction row
-
 #navigation-icon
   padding 10px 10px 20px
   margin-right 10px

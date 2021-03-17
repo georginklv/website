@@ -4,6 +4,30 @@
       <hooper :settings="hooperSettings">
         <slide :index="0">
           <div class="block-wrapper">
+            <img src="../assets/wedoweb.png" alt="" class="block-" />
+            <div class="block-info-content">
+              <p class="title-project">We Do Web</p>
+              <p class="info-about-project">
+                This is the site you looking now. I'm using Vue.js, Stylus.
+              </p>
+              <a
+                href="https://github.com/georginklv/wedoweb"
+                target="_blank"
+                class="gitHub-link"
+              >
+                <img
+                  src="../assets/github-black.webp"
+                  alt=""
+                  class="gitHub-logo"
+                />
+                <p class="github">GitHub</p>
+              </a>
+            </div>
+          </div>
+        </slide>
+
+        <slide :index="1">
+          <div class="block-wrapper">
             <img src="../assets/website.jpg" alt="" class="block-" />
             <div class="block-info-content">
               <p class="title-project">Website</p>
@@ -26,7 +50,7 @@
           </div>
         </slide>
 
-        <slide :index="1">
+        <slide :index="2">
           <div class="block-wrapper">
             <img src="../assets/calculator.png" alt="" class="block-" />
             <div class="block-info-content">
@@ -48,7 +72,7 @@
           </div>
         </slide>
 
-        <slide :index="2">
+        <slide :index="3">
           <div class="block-wrapper">
             <img src="../assets/flappy.jpg" alt="" class="block-" />
             <div class="block-info-content">
@@ -73,7 +97,7 @@
           </div>
         </slide>
 
-        <slide :index="3">
+        <slide :index="4">
           <div class="block-wrapper">
             <img src="../assets/weather.jpg" alt="" class="block-" />
             <div class="block-info-content">

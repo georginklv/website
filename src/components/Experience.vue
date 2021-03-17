@@ -65,9 +65,22 @@
         <swiper class="swiper" :options="swiperOption">
           <swiper-slide>
             <div class="positions">
+              <p class="position-small-title">Next IT Services</p>
+              <h2 class="heading-position">Mid-level Frontend Web Developer</h2>
+              <p class="date">07.07.2020 - Present</p>
+              <ul class="paragraph">
+                <li>Develop and maintaining arhitecture and BIM software</li>
+                <li>Working in a team and also by myself</li>
+                <li>
+                  Using Vue2, Laravel, Sass, PHP and many others
+                </li>
+              </ul>
+            </div>
+
+            <div class="positions">
               <p class="position-small-title">Dopamine</p>
               <h2 class="heading-position">Front End Developer</h2>
-              <p class="date">09.01.19 - Present</p>
+              <p class="date">09.01.19 - 01.07.2020</p>
               <ul class="paragraph">
                 <li>Developing software applications</li>
                 <li>Working on a team projects</li>
@@ -81,6 +94,9 @@
                 </li>
               </ul>
             </div>
+          </swiper-slide>
+
+          <swiper-slide>
             <div class="positions">
               <p class="position-small-title">Square Consultancy</p>
               <h2 class="heading-position">
@@ -103,9 +119,6 @@
                 <li>Taking care of UX, UI of the site and helping for SEO</li>
               </ul>
             </div>
-          </swiper-slide>
-
-          <swiper-slide>
             <div class="positions">
               <p class="position-small-title">Playground</p>
               <h2 class="heading-position">Customer service</h2>
@@ -114,6 +127,9 @@
                 <li>Maintenance of hardware - Customer suport</li>
               </ul>
             </div>
+          </swiper-slide>
+
+          <swiper-slide>
             <div class="positions">
               <p class="position-small-title">TaxBack</p>
               <h2 class="heading-position">
@@ -132,9 +148,34 @@
                 </li>
               </ul>
             </div>
+            <div class="positions">
+              <p class="position-small-title">Playground</p>
+              <h2 class="heading-position">Customer service</h2>
+              <p class="date">01.04.17 - 04.02.18</p>
+              <ul class="paragraph">
+                <li>Maintenance of hardware - Customer suport</li>
+              </ul>
+            </div>
           </swiper-slide>
-
           <swiper-slide>
+            <div class="positions">
+              <p class="position-small-title">TaxBack</p>
+              <h2 class="heading-position">
+                Marketing expert
+              </h2>
+              <p class="date">18.04.18 - 08.01.19</p>
+              <ul class="paragraph">
+                <li>
+                  Made reports from which i made mass emails.
+                </li>
+                <li>
+                  Emails were made as pages with HTML5 and CSS3.
+                </li>
+                <li>
+                  Take care of part of the SEO, data analysis and date update.
+                </li>
+              </ul>
+            </div>
             <div class="positions">
               <p class="position-small-title">
                 Hapmton Jitney (New York City, USA)
@@ -145,9 +186,14 @@
                 <li>Face to face customer service</li>
               </ul>
             </div>
+          </swiper-slide>
+
+          <swiper-slide>
             <div class="positions">
               <ul class="position-small-title">
-                <li>McKinley Chalet Resort (Alaska , USA)</li>
+                <p class="position-small-title">
+                  McKinley Chalet Resort (Alaska , USA)
+                </p>
               </ul>
               <h2 class="heading-position">Busser</h2>
               <p class="date">01.06.15 - 01.10.15</p>
@@ -261,7 +307,7 @@ export default {
     margin-bottom 40px
   .swiper-button-prev
     top 4%
-    right: 13%;
+    right: 20%;
   .swiper-button-next
     top 4%
     right: 20px;
