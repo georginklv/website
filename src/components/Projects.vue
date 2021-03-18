@@ -4,7 +4,7 @@
       <hooper :settings="hooperSettings">
         <slide :index="0">
           <div class="block-wrapper">
-            <img src="../assets/wedoweb.png" alt="" class="block-" />
+            <img src="../assets/wedoweb.png" alt="" />
             <div class="block-info-content">
               <p class="title-project">We Do Web</p>
               <p class="info-about-project">
@@ -23,9 +23,29 @@
           </div>
         </slide>
 
+        <slide :index="0">
+          <div class="block-wrapper">
+            <img src="../assets/gihub-search.png" alt="" />
+            <div class="block-info-content">
+              <p class="title-project">GitGub search</p>
+              <p class="info-about-project">
+                App rewritten from React, used Vue 2.
+              </p>
+
+              <a
+                href="https://github-search-vue-from-react.netlify.app/"
+                target="_blank"
+                class="gitHub-link"
+              >
+                <p class="github">To the site</p>
+              </a>
+            </div>
+          </div>
+        </slide>
+
         <slide :index="1">
           <div class="block-wrapper">
-            <img src="../assets/website.jpg" alt="" class="block-" />
+            <img src="../assets/website.jpg" alt="" />
             <div class="block-info-content">
               <p class="title-project">Website</p>
               <p class="info-about-project">
@@ -49,7 +69,7 @@
 
         <slide :index="2">
           <div class="block-wrapper">
-            <img src="../assets/calculator.png" alt="" class="block-" />
+            <img src="../assets/calculator.png" alt="" />
             <div class="block-info-content">
               <p class="title-project">Vue Calculator</p>
               <p class="info-about-project">Calcutor made with Vue.js</p>
@@ -71,7 +91,7 @@
 
         <slide :index="3">
           <div class="block-wrapper">
-            <img src="../assets/flappy.jpg" alt="" class="block-" />
+            <img src="../assets/flappy.jpg" alt="" />
             <div class="block-info-content">
               <p class="title-project">letqshtoPile</p>
               <p class="info-about-project">
@@ -96,7 +116,7 @@
 
         <slide :index="4">
           <div class="block-wrapper">
-            <img src="../assets/weather.jpg" alt="" class="block-" />
+            <img src="../assets/weather.jpg" alt="" />
             <div class="block-info-content">
               <p class="title-project">Vue Weather</p>
               <p class="info-about-project">Weather app made with Vue.js</p>
