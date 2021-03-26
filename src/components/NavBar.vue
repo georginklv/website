@@ -32,7 +32,7 @@
             <a href="#about" class="btn btn-nav">About</a>
           </li>
           <li>
-            <a href="#experience" class="btn btn-nav">Expirience</a>
+            <a href="#experience" class="btn btn-nav">Experience</a>
           </li>
           <li>
             <a href="#projects" class="btn btn-nav">Projects</a>
